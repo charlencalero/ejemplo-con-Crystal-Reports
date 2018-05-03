@@ -9,6 +9,8 @@ Instalar y de ahi abrir el proyecto
 
 Tambien se agrego el nuget para generar una imagen QR, e incrustarla en el Crystal report
 
+
+# QrCodeNet
 https://archive.codeplex.com/?p=qrcodenet
-
-
+basada en ISO/IEC 18004
+Nivel de corrección de error (Error Correction Level): nivel Q.
