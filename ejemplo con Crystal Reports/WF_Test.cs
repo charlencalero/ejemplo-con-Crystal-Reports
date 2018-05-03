@@ -47,23 +47,22 @@ namespace ejemplo_con_Crystal_Reports
             repo.SetParameterValue("dire_clie", textBox3.Text);
             repo.SetParameterValue("ruta", ruta_temp);
 
+             generar_imagen_qr(hash,ruta_temp);
 
             crystalReportViewer1.ReportSource = repo;
 
-            generar_imagen_qr(hash,ruta_temp);
+           
 
         }
 
         private void generar_imagen_qr(string texto,string ruta_temp)
         {
-            QrEncoder qrEncoder = new QrEncoder(ErrorCorrectionLevel.H);
+            QrEncoder qrEncoder = new QrEncoder(ErrorCorrectionLevel.Q);
             QrCode qrCode = new QrCode();
             qrEncoder.TryEncode(texto, out qrCode);
 
             Renderer renderer = new Renderer(5, Brushes.Black, Brushes.White);
             renderer.CreateImageFile(qrCode.Matrix, ruta_temp, ImageFormat.Bmp);
-
-
 
 
 
