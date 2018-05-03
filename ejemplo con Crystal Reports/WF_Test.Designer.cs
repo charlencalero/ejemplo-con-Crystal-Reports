@@ -45,7 +45,7 @@
             this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
             this.crystalReportViewer1.Location = new System.Drawing.Point(276, 44);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
-            this.crystalReportViewer1.Size = new System.Drawing.Size(226, 441);
+            this.crystalReportViewer1.Size = new System.Drawing.Size(312, 441);
             this.crystalReportViewer1.TabIndex = 0;
             this.crystalReportViewer1.ToolPanelWidth = 0;
             // 
@@ -64,27 +64,27 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(38, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 13);
+            this.label1.Size = new System.Drawing.Size(25, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "TIENDA";
+            this.label1.Text = "doc";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(38, 94);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 13);
+            this.label2.Size = new System.Drawing.Size(42, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "DIRECCION";
+            this.label2.Text = "nombre";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(38, 145);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 13);
+            this.label3.Size = new System.Drawing.Size(50, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "TELEFONO";
+            this.label3.Text = "direccion";
             // 
             // textBox1
             // 
@@ -92,7 +92,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(184, 20);
             this.textBox1.TabIndex = 5;
-            this.textBox1.Text = "KSOFT";
+            this.textBox1.Text = "43679394";
             // 
             // textBox2
             // 
@@ -100,7 +100,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(184, 20);
             this.textBox2.TabIndex = 6;
-            this.textBox2.Text = "JR HERMILIO VALDIZAN HUANUCO";
+            this.textBox2.Text = "Charlen Maximo Calero Huaman";
             // 
             // textBox3
             // 
@@ -108,13 +108,13 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 7;
-            this.textBox3.Text = "998887099";
+            this.textBox3.Text = "oxapampa";
             // 
-            // Form1
+            // WF_Test
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(514, 508);
+            this.ClientSize = new System.Drawing.Size(636, 508);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -123,7 +123,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.crystalReportViewer1);
-            this.Name = "Form1";
+            this.Name = "WF_Test";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
